@@ -1,0 +1,33 @@
+{
+  "name": "node-velodrome",
+  "version": "0.0.1",
+  "description": "A Node.js client for the Velodrome API",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/narruc/node-velodrome.git"
+  },
+  "keywords": [
+    "velodrome",
+    "api",
+    "courier",
+    "wrapper",
+    "client",
+    "delivery",
+    "node",
+    "javascript",
+    "node.js"
+  ],
+  "author": "Shane Curran <shane@velodro.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/narruc/node-velodrome/issues"
+  },
+  "homepage": "https://github.com/narruc/node-velodrome",
+  "dependencies": {
+    "request": "^2.55.0"
+  }
+}
