@@ -1,6 +1,6 @@
 {
   "name": "velodrome",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Node.js client for the Velodrome API",
   "main": "index.js",
   "scripts": {

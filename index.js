@@ -103,4 +103,9 @@ Velodrome.prototype.listQuotes = function (callback) {
   this.sendRequest("GET", "/customer/quotes", callback);
 }
 
+Velodrome.prototype.getQuote = function (quote_id, callback) {
+  // Fetch a particular quote based on an ID
+  this.sendRequest("GET", "/customer/quotes/" + quote_id, callback);
+}
+
 module.exports = Velodrome;
