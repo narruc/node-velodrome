@@ -83,6 +83,16 @@ Velodrome.prototype.listCities = function (callback) {
   this.sendRequest("GET", "/cities", callback);
 }
 
+Velodrome.prototype.getCity = function (city_id, callback) {
+  // Fetch this individual city
+  this.sendRequest("GET", "/cities/" + city_id, callback);
+}
+
+Velodrome.prototype.listCouriers = function (callback) {
+  // List all the available couriers
+  this.sendRequest("GET", "/couriers", callback);
+}
+
 Velodrome.prototype.listCards = function (callback) {
   // Fetch the list of cards associated with the user's account
   this.sendRequest("GET", "/customer/cards", callback);
@@ -93,11 +103,6 @@ Velodrome.prototype.newQuote = function (options, callback) {
   this.sendRequest("POST", "/customer/quotes", callback, options);
 }
 
-Velodrome.prototype.newOrder = function (options, callback) {
-  // Create a new order based on the parameters set
-  this.sendRequest("POST", "/customer/orders", callback, options);
-}
-
 Velodrome.prototype.listQuotes = function (callback) {
   // Fetch the list of a customer's quotes and return them
   this.sendRequest("GET", "/customer/quotes", callback);
@@ -106,6 +111,36 @@ Velodrome.prototype.listQuotes = function (callback) {
 Velodrome.prototype.getQuote = function (quote_id, callback) {
   // Fetch a particular quote based on an ID
   this.sendRequest("GET", "/customer/quotes/" + quote_id, callback);
+}
+
+Velodrome.prototype.newOrder = function (options, callback) {
+  // Create a new order based on the parameters set
+  this.sendRequest("POST", "/customer/orders", callback, options);
+}
+
+Velodrome.prototype.listOrders = function (callback) {
+  // Fetch all the orders this user placed
+  this.sendRequest("GET", "/customer/orders", callback);
+}
+
+Velodrome.prototype.getOrder = function (order_id, callback) {
+  // Fetch this individual order
+  this.sendRequest("GET", "/customer/orders/" + order_id, callback);
+}
+
+Velodrome.prototype.listCards = function (callback) {
+  // Fetch the list of a user's linked credit cards
+  this.sendRequest("GET", "/customer/cards", callback);
+}
+
+Velodrome.prototype.getCard = function (card_id, callback) {
+  // Fetch a particular credit card from a user's account
+  this.sendRequest("GET", "/customer/cards/" + card_id, callback);
+}
+
+Velodrome.prototype.destroyCard = function (card_id, callback) {
+  // Remove a card from a user's account
+  this.sendRequest("POST", "/customer/cards/" + card_id + "/destroy", callback);
 }
 
 module.exports = Velodrome;
