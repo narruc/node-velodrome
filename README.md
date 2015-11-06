@@ -7,7 +7,7 @@ Install
 
 API Key
 =======
-API keys can be requested by emailing *[hi@velodro.me](mailto:hi@velodro.me)*
+API keys can be requested by emailing *[hi@velodro.me](mailto:hi@velodro.me)*.
 
 General Info
 ============
