@@ -3,7 +3,9 @@ A Node.js client for the Velodrome API
 
 Install
 =======
-```npm install velodrome```
+```bash
+npm install velodrome
+```
 
 API Key
 =======
@@ -11,7 +13,7 @@ API keys can be requested by emailing *[hi@velodro.me](mailto:hi@velodro.me)*.
 
 General Info
 ============
-This API library is based on [mikeal](https://github.com/mikeal)'s *[request](https://github.com/request/request)* library. As such each API request calls the callback provided with three parameters (*error*, *resource*, *data*) as in the [*request*](https://github.com/request/request) library. More info can be found in the [*request* library documentation](https://github.com/request/request).
+This API library is based on [mikeal](https://github.com/mikeal)'s *[request](https://github.com/request/request)* library. As such each API request calls the callback provided with three parameters (*error*, *resource*, *data*) as in the [*node-request*](https://github.com/request/request) library. More info can be found in the [*request* library documentation](https://github.com/request/request).
 
 API keys are required for all requests.
 
