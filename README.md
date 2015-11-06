@@ -11,7 +11,7 @@ API keys can be requested by emailing *[mailto:hi@velodro.me](hi@velodro.me)*
 
 General Info
 ============
-This API library is based on [https://github.com/mikeal](mikeal)'s *[https://github.com/request/request](request)* library. As such each API request calls the callback provided with three parameters (error, resource, data) as in the *request* library. More info can be found in the [https://github.com/request/request](*request* library documentation).
+This API library is based on [mikeal](https://github.com/mikeal)'s *[request](https://github.com/request/request)* library. As such each API request calls the callback provided with three parameters (*error*, *resource*, *data*) as in the [*request*](https://github.com/request/request) library. More info can be found in the [*request* library documentation](https://github.com/request/request).
 
 API keys are required for all requests.
 
