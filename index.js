@@ -128,6 +128,11 @@ Velodrome.prototype.getOrder = function (order_id, callback) {
   this.sendRequest("GET", "/customer/orders/" + order_id, callback);
 }
 
+Velodrome.prototype.newCard = function (options, callback) {
+  // Remove a card from a user's account
+  this.sendRequest("POST", "/customer/cards", callback, options);
+}
+
 Velodrome.prototype.listCards = function (callback) {
   // Fetch the list of a user's linked credit cards
   this.sendRequest("GET", "/customer/cards", callback);
