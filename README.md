@@ -54,28 +54,27 @@ api.listCities(function (error, resource, data) {
 
 Method List
 ===========
-
-## Account
+### Account
 - [getAccount ( *callback* )](https://velodrome.readme.io/docs/my-account)
 
-## Cities
+### Cities
 - [listCities ( *callback* )](https://velodrome.readme.io/docs/list-cities)
 - [getCity ( *city_id*, *callback* )](https://velodrome.readme.io/docs/get-city)
 
-## Couriers
+### Couriers
 - [listCouriers ( *callback* )](https://velodrome.readme.io/docs/list-couriers-on-duty)
 
-## Quotes
+### Quotes
 - [newQuote ( *options*, *callback* )](https://velodrome.readme.io/docs/request-quote)
 - [listQuotes ( *callback* )](https://velodrome.readme.io/docs/list-quotes)
 - [getQuote ( *quote_id*, *callback* )](https://velodrome.readme.io/docs/get-quote)
 
-## Orders
+### Orders
 - [newOrder ( *options*, *callback* )](https://velodrome.readme.io/docs/new-order)
 - [listOrders ( *callback* )](https://velodrome.readme.io/docs/list-orders)
 - [getOrder ( *order_id*, *callback* )](https://velodrome.readme.io/docs/get-order)
 
-## Credit Cards
+### Credit Cards
 - [newCard ( *options*, *callback* )](https://velodrome.readme.io/docs/new-card)
 - [listCards ( *callback* )](https://velodrome.readme.io/docs/list-cards)
 - [getCard ( *card_id*, *callback* )](https://velodrome.readme.io/docs/get-card)
