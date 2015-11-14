@@ -11,6 +11,10 @@ API Key
 =======
 API keys can be requested by emailing *[hi@velodro.me](mailto:hi@velodro.me)*.
 
+Authentication
+==============
+The Velodrome API utilises HTTP Basic Auth for authentication. Each user is issued with a public and private API key. The public key is used as the Basic Auth Username and the private key is used as the Basic Auth Password. Every request is completed over SSL and HTTP Strict Transport Security (HSTS) is enforced.
+
 General Info
 ============
 This API library is based on [mikeal](https://github.com/mikeal)'s *[request](https://github.com/request/request)* library. As such each API request calls the callback provided with three parameters (*error*, *resource*, *data*) as in the [*node-request*](https://github.com/request/request) library. More info can be found in the [*request* library documentation](https://github.com/request/request).
