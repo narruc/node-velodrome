@@ -93,11 +93,6 @@ Velodrome.prototype.listCouriers = function (callback) {
   this.sendRequest("GET", "/couriers", callback);
 }
 
-Velodrome.prototype.listCards = function (callback) {
-  // Fetch the list of cards associated with the user's account
-  this.sendRequest("GET", "/customer/cards", callback);
-}
-
 Velodrome.prototype.newQuote = function (options, callback) {
   // Create a new quote based on the parameters set
   this.sendRequest("POST", "/customer/quotes", callback, options);

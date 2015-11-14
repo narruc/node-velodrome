@@ -54,18 +54,29 @@ api.listCities(function (error, resource, data) {
 
 Method List
 ===========
-- [getAccount( *callback* )](https://velodrome.readme.io/docs/my-account)
-- [listCities( *callback* )](https://velodrome.readme.io/docs/list-cities)
-- [getCity( *city_id*, *callback* )](https://velodrome.readme.io/docs/get-city)
-- [listCouriers( *callback* )](https://velodrome.readme.io/docs/list-couriers-on-duty)
-- [listCards( *callback* )](https://velodrome.readme.io/docs/list-cards)
-- [newQuote( *options*, *callback* )](https://velodrome.readme.io/docs/request-quote)
-- [listQuotes( *callback* )](https://velodrome.readme.io/docs/list-quotes)
-- [getQuote( *quote_id*, *callback* )](https://velodrome.readme.io/docs/get-quote)
-- [newOrder( *options*, *callback* )](https://velodrome.readme.io/docs/new-order)
-- [listOrders( *callback* )](https://velodrome.readme.io/docs/list-orders)
-- [getOrder( *order_id*, *callback* )](https://velodrome.readme.io/docs/get-order)
-- [newCard( *options*, *callback* )](https://velodrome.readme.io/docs/new-card)
-- [listCards( *callback* )](https://velodrome.readme.io/docs/list-cards)
-- [getCard( *card_id*, *callback* )](https://velodrome.readme.io/docs/get-card)
-- [destroyCard( *card_id*, *callback* )](https://velodrome.readme.io/docs/delete-card)
+
+## Account
+- [getAccount ( *callback* )](https://velodrome.readme.io/docs/my-account)
+
+## Cities
+- [listCities ( *callback* )](https://velodrome.readme.io/docs/list-cities)
+- [getCity ( *city_id*, *callback* )](https://velodrome.readme.io/docs/get-city)
+
+## Couriers
+- [listCouriers ( *callback* )](https://velodrome.readme.io/docs/list-couriers-on-duty)
+
+## Quotes
+- [newQuote ( *options*, *callback* )](https://velodrome.readme.io/docs/request-quote)
+- [listQuotes ( *callback* )](https://velodrome.readme.io/docs/list-quotes)
+- [getQuote ( *quote_id*, *callback* )](https://velodrome.readme.io/docs/get-quote)
+
+## Orders
+- [newOrder ( *options*, *callback* )](https://velodrome.readme.io/docs/new-order)
+- [listOrders ( *callback* )](https://velodrome.readme.io/docs/list-orders)
+- [getOrder ( *order_id*, *callback* )](https://velodrome.readme.io/docs/get-order)
+
+## Credit Cards
+- [newCard ( *options*, *callback* )](https://velodrome.readme.io/docs/new-card)
+- [listCards ( *callback* )](https://velodrome.readme.io/docs/list-cards)
+- [getCard ( *card_id*, *callback* )](https://velodrome.readme.io/docs/get-card)
+- [destroyCard ( *card_id*, *callback* )](https://velodrome.readme.io/docs/delete-card)
